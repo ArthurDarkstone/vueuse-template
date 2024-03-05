@@ -1,0 +1,37 @@
+{
+  "name": "utils-metadata",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Metadata for xx utils functions",
+  "author": "ArthurDarkstone<https://github.com/ArthurDarkstone/>",
+  "homepage": "https://github.com/ArthurDarkstone/vueuse-template/tree/main/packages/metadata#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurDarkstone/vueuse-template",
+    "directory": "packages/metadata"
+  },
+  "bugs": {
+    "url": "https://github.com/ArthurDarkstone/vueuse-template/issues"
+  },
+  "keywords": [
+    "vue",
+    "utils"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    },
+    "./*": "./*"
+  },
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.cts",
+  "files": [
+    "index.*"
+  ],
+  "scripts": {
+    "update": "esno scripts/update.ts"
+  }
+}

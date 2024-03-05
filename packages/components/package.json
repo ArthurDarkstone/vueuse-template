@@ -1,0 +1,36 @@
+{
+  "name": "utils-components",
+  "version": "0.0.1",
+  "description": "Renderless components for xx chain tools",
+  "author": "ArthurDarkstone<https://github.com/ArthurDarkstone/>",
+  "homepage": "https://github.com/ArthurDarkstone/vueuse-template/tree/main/packages/components#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurDarkstone/vueuse-template",
+    "directory": "packages/components"
+  },
+  "bugs": {
+    "url": "https://github.com/ArthurDarkstone/vueuse-template/issues"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    },
+    "./*": "./*"
+  },
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "unpkg": "./index.iife.min.js",
+  "jsdelivr": "./index.iife.min.js",
+  "types": "./index.d.cts",
+  "dependencies": {
+    "utils-core": "workspace:*",
+    "utils-vue": "workspace:*",
+    "vue-demi": ">=0.14.6"
+  }
+}
