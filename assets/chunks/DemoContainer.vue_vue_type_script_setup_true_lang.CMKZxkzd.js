@@ -1,0 +1,1 @@
+import{d as t,h as a,aj as n,o as r,c as s,r as c,t as l,e as d}from"./framework.TvTER_e8.js";const _={class:"demo wide"},i={key:0,class:"error"},f=t({__name:"DemoContainer",setup(m){const e=a(null);return n(o=>{e.value=o}),(o,u)=>(r(),s("div",_,[c(o.$slots,"default"),e.value?(r(),s("div",i,l(e.value),1)):d("",!0)]))}});export{f as _};

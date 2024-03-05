@@ -1,7 +1,0 @@
-{
-  "recommendations": [
-    "dbaeumer.vscode-eslint",
-    "bierner.lit-html",
-    "antfu.vite"
-  ]
-}

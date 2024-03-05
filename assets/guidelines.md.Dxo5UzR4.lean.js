@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a2 as n}from"./chunks/framework.TvTER_e8.js";const c=JSON.parse('{"title":"Guidelines","description":"","frontmatter":{},"headers":[],"relativePath":"guidelines.md","filePath":"guidelines.md"}'),h={name:"guidelines.md"},t=n("",41),l=[t];function k(e,p,r,d,g,o){return a(),i("div",null,l)}const A=s(h,[["render",k]]);export{c as __pageData,A as default};
