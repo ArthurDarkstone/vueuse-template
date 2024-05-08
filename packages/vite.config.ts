@@ -25,11 +25,10 @@ export default defineConfig(async () => {
   //   getFunctionContributors(),
   // ])
 
-  const base = 'vueuse-template' // only for GitHub Pages
+  // const base = '/vueuse-template/' // only for GitHub Pages
 
   return <UserConfig>{
-
-    base,
+    // base,
     server: {
       hmr: {
         overlay: false,
