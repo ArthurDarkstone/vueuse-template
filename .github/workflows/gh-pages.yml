@@ -36,11 +36,11 @@ jobs:
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
       - name: Build
-        run: pnpm run build
+        run: pnpm run docs:build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./packages/.vitepress/dist
 
   # Deployment job
   deploy:
