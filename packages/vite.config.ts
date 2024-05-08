@@ -26,6 +26,7 @@ export default defineConfig(async () => {
   // ])
 
   return <UserConfig>{
+    base: './',
     server: {
       hmr: {
         overlay: false,
